@@ -1,7 +1,10 @@
-from PyQt5.QtWidgets import QOpenGLWidget
+import time
+
 import numpy as np
 from OpenGL.GL import *
-import time
+from PyQt5 import QtCore
+from PyQt5.QtWidgets import QOpenGLWidget
+
 # Try to import metalgpu for Metal integration (pip install metalgpu)
 try:
     import metalgpu as mg
